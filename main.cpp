@@ -13,16 +13,27 @@
  */
 #include <iostream>
 #include <fstream>
+#include "FileManage.h"
 
 using namespace std;
 
 int main() {
-//    string filename;
+//    string fileName;
+//    Manage theFile;
 //    cout<<"Enter the filepath of the dictionary you would like to use"<<endl;
-//    ifstream file;
-//    file.open("");
+//    cin>> fileName;    string line;
+//    theFile.readFile(fileName); //This is not finding the filepath
 
-    //Read in file here
+    string line;
+    cout<<"Enter the name of the file"<< endl;
+    cin>>line;
+    ifstream myfile ("inputSmall.txt");
+    getline(myfile, line);
+    while (getline(myfile, line)) {
+        cout << line << '\n';
+    }
+        myfile.close();
+
 
     //Perform operations on information with AVL tree
 
