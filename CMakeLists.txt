@@ -3,4 +3,4 @@ project(SpellChecker)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(SpellChecker main.cpp Dictionary.cpp Dictionary.h)
+add_executable(SpellChecker main.cpp Dictionary.cpp Dictionary.h FileManage.cpp FileManage.h)

@@ -17,16 +17,10 @@
 using namespace std;
 
 int main() {
-    string filename;
-    cout<<"Enter the name of the text file which you would like to spell check"<<endl;
-    if(filename == "inputBig.txt") {
-        //open big input
-    }
-    else if(filename == "inputSmall.txt") {
-        //open small input
-    }
-    ifstream file;
-    file.open("");
+//    string filename;
+//    cout<<"Enter the filepath of the dictionary you would like to use"<<endl;
+//    ifstream file;
+//    file.open("");
 
     //Read in file here
 
@@ -49,9 +43,5 @@ int main() {
  * 3) Switch around characters that are next to each other
  *
  * Line numbers start at 1 in files
- */
-
-/*
- *
  */
 
